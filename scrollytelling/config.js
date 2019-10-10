@@ -3,10 +3,9 @@ var config = {
   accessToken:
     "pk.eyJ1IjoicG1iYW51Z28iLCJhIjoiY2sxajJqbWpzMHN6bjNkankxaGh4N3RhZiJ9.jfuf8h8xaRLS9Si9Epp-sw", //TODO
   title: "Abuja Latin Dance Community", //TODO
-  subtitle: "La vida tiene sabor", //TODO
-  byline: "By Peter Mbanugo (Code Chef)", //TODO
-  footer:
-    "Created at Concatenate Lagos 2019 with our awesome instructor Anjana Vakil",
+  subtitle: "We love to hangout and dance", //TODO
+  byline: "", //TODO e.g By Peter Mbanugo (Code Chef)
+  footer: "Created at Concatenate Conference Lagos 2019 by Peter Mbanugo",
   showMarkers: false,
   theme: "light",
   alignment: "left",
@@ -14,12 +13,12 @@ var config = {
     //TODO replace this data with data from the first point in your dataset
     {
       id: "concatenate-lagos",
-      title: "Concatenate Lagos",
+      title: "Salsa Abuja",
       description:
-        "A free conference for African developers with speakers from around the world. This is where my maps journey began with Anjana Vakil and other awesome attendees I spent the room with.",
+        "Salsa Abuja is a community of people who love to express themselves and have fun by dancing. Salsa is what we vibe to most of the time, but we also love bachata and kizomba and are keen to learning more. This page contains a list of places we gather to socialise and dance. You should scroll through to see the locations and time we meet",
       location: {
-        center: [3.366639462826271, 6.51635441424402],
-        zoom: 11.805394255186213,
+        center: [7.488222306885632, 9.077677688632775],
+        zoom: 10,
         pitch: 33.499999999999986,
         bearing: 136.79999999999995
       },
@@ -36,7 +35,7 @@ var config = {
       id: "casalinda",
       title: "Casalinda Hotel",
       description:
-        "A nice hotel with a lounge and a pool. An opportunity to meet fellow dance enthusiast, get a drink and dance.",
+        "A nice hotel with a lounge and a swimming pool. An opportunity to meet fellow dance enthusiast, drink, eat, and dance. You can bring your friends along to enjoy the nice atmosphere. This is how we start the weekend 💃",
       time: "Friday, 8:30 PM"
     },
     {
@@ -49,7 +48,7 @@ var config = {
       id: "barcelona-hotel",
       title: "Barcelona Hotel",
       description:
-        "A venue where Latin dance enthusiast meet during the week. They have really nice cocktails so we can dance, drink and smoke cigarettes (if you want :P)",
+        "A venue where Latin dance enthusiast meet during the week to socialise and dance after work. It has a bar and they sell drinks too",
       time: "Thursday, 9:00 PM"
     },
     {
@@ -62,8 +61,21 @@ var config = {
       id: "bon-hotel-elvis",
       title: "Bon Hotel Elvis",
       description:
-        "A nice hotel with big swimming pool and bar. Close to the Banex arena and a nice atmosphere and clubs close by. ",
+        "A nice hotel with big swimming pool and bar. Close to the Banex plaza and a nice atmosphere with an open-space to relax and take in fresh air.",
       time: "Sunday, 7:00 PM"
+    },
+    {
+      location: {
+        center: [7.489802, 9.055164],
+        zoom: 15,
+        pitch: 0,
+        bearing: 0
+      },
+      id: "ceddi-plaza",
+      title: "Ceddi Plaza",
+      description:
+        "First Sunday of the month, we meet at the ground floor of Ceddi Plaza to dance. Dancing here attracts people who come to shop in the plaza to try out salsa and join us in our other events.",
+      time: "Sunday, 4:30 PM"
     }
   ]
 };
