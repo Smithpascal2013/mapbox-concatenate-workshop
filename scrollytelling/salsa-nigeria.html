@@ -196,6 +196,12 @@
           chapter.appendChild(story);
         }
 
+        if (record.phone) {
+          var story = document.createElement("p");
+          story.innerHTML = `Instructor: Call ${record.phone}`;
+          chapter.appendChild(story);
+        }
+
         container.setAttribute("id", record.id);
         container.classList.add("step");
         if (idx === 0) {
