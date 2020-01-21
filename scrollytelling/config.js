@@ -49,7 +49,7 @@ var config = {
       title: "Barcelona Hotel",
       description:
         "A venue where Latin dance enthusiast meet during the week to socialise and dance after work. It has a bar and they sell drinks too",
-      time: "Thursday, 9:00 PM"
+      time: "Thursday and Saturday, 9:00 PM"
     },
     {
       location: {
