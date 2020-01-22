@@ -51,9 +51,9 @@ var config = {
       title: "Barcelona Hotel",
       description:
         "A venue where Latin dance enthusiast meet during the week to socialise and dance after work. It has a bar and they sell drinks too",
-      time: "Thursdays and Saturdays, 9 to 11 PM",
-      class: "Thursdays and Saturdays, 7 to 9 PM",
-      phone: "Vincent +234 806 415 5569"
+      time: "Thursdays and Saturdays, 7 to 10 PM",
+      class: "",
+      phone: "Vincent +234 806 415 5569 or Efa +234 803 509 0221"
     },
     {
       location: {
@@ -209,7 +209,7 @@ var config = {
       id: "retro-lounge-lagos",
       title: "Retro Lounge",
       description:
-        "Come dance and prep your body for the work week at Retro Lounge. Plot 29A Gafari Animashaun street, off Ajose Adeogun street, VI, Lagos.",
+        "Come dance and prep your body for the work week with Cuban Salsa at Retro Lounge. Plot 29A Gafari Animashaun street, off Ajose Adeogun street, VI, Lagos.",
       time: "Mondays 7PM - 10PM",
       class: "",
       phone: "Buddy on +2348056002459"
@@ -246,21 +246,6 @@ var config = {
     },
     {
       location: {
-        center: [3.4100537, 6.432942],
-        zoom: 17,
-        pitch: 0,
-        bearing: 0
-      },
-      id: "fogo-de-lagos",
-      title: "Fogo De Lagos",
-      description:
-        "Social dance and class at Fogo De Lagos. Class time is 8PM to 9PM for learners (so go early). Social on from 7PM until 11PM.",
-      time: "Tuesdays 7PM - 11PM",
-      class: "Tuesdays 8PM - 9PM",
-      phone: "Buddy on +2348056002459"
-    },
-    {
-      location: {
         center: [3.355466, 6.4945675],
         zoom: 17,
         pitch: 0,
@@ -269,7 +254,7 @@ var config = {
       id: "q-lounge-lagos",
       title: "Q-Lounge Lagos",
       description:
-        "After-work Kizomba Classes & Socials. Plot 1411 Adetokunbo Ademola Street, Victoria Island Lagos, Nigeria.",
+        "After-work Kizomba Classes & Socials. Get your tickets  online now, avoid long queues  https://kiz.ng/2K90cfe or subscribe to a  membership plan & enjoy huge benefits  https://kiz.ng/2rY8GwI. The venue is at Plot 1411 Adetokunbo Ademola Street, Victoria Island Lagos, Nigeria.",
       time: "Tuesdays 7PM - 10PM",
       class: "",
       phone: "+2348172471052,  +2348056304856"
@@ -306,15 +291,16 @@ var config = {
     },
     {
       location: {
-        center: [3.3959213, 6.426865],
+        center: [3.4683226, 6.4458491],
         zoom: 17,
         pitch: 0,
         bearing: 0
       },
-      id: "lagos-yacth-club",
-      title: "The Lagos Yacht Club",
-      description: "Salsa Class. Yacht Club Members only",
-      time: "",
+      id: "terrace-lounge",
+      title: "Terrace Lounge",
+      description:
+        "Come dance Salsa & Kizomba at Terrace Lounge, Lilygate Hotel 2, Olubunmi Owa Street, Lekki Phase 1.",
+      time: "Wednesdays 7pm - 10pm",
       class: "",
       phone: "Buddy on +2348056002459"
     },
@@ -346,6 +332,21 @@ var config = {
       time: "Wednesday 6:30PM - till late",
       class: "",
       phone: "Ken 08106658431"
+    },
+    {
+      location: {
+        center: [3.3617027, 6.4954564],
+        zoom: 17,
+        pitch: 0,
+        bearing: 0
+      },
+      id: "achwac-poolside-surlere-lagos",
+      title: "Achwac Poolside, National Stadium",
+      description:
+        "Social dance at Achwac Poolside, National Stadium. Get ready to rock the dance floor!",
+      time: "Wednesday 7PM - 10PM",
+      class: "",
+      phone: "Vivian 08105843037"
     },
     {
       location: {
@@ -421,6 +422,21 @@ var config = {
       time: "Saturdays 7PM - 11PM",
       class: "Saturdays 8PM - 9PM",
       phone: "Buddy on +2348056002459"
+    },
+    {
+      location: {
+        center: [3.4697114, 6.4474363],
+        zoom: 17,
+        pitch: 0,
+        bearing: 0
+      },
+      id: "blvd-lounge-lagos",
+      title: "BLVD Lounge",
+      description:
+        "Come and dance and chillax at BLVD Lounge 5th Floor, Brasar's Place. 69 Admiralty Way, Lekki Phase 1.",
+      time: "Sundays 7PM",
+      class: "",
+      phone: "Ken 08106658431"
     },
     {
       location: {
