@@ -35,10 +35,10 @@ var config = {
       id: "casalinda",
       title: "Casalinda Hotel",
       description:
-        "A nice hotel with a lounge and a swimming pool. An opportunity to meet fellow dance enthusiast, drink, eat, and dance. You can bring your friends along to enjoy the nice atmosphere. This is how we start the weekend 💃",
-      time: "Friday, 9 PM",
+        " Since 2010, Latin Dance Academy has provided not only quality dance lessons but has formed one of largest dance community. Connecting people from Lagos Nigeria where it all began to students doing us proud in USA, UK, Germany, Canada, Cape Verde, Ireland, China, Russia, Philippines, India etc. A nice hotel with a lounge and a swimming pool. An opportunity to meet fellow dance enthusiast, drink, eat, and dance. You can bring your friends along to enjoy the nice atmosphere. This is how we start the weekend 💃",
+      time: "Friday Socials, 8.30 PM",
       class: "Tuesdays, Friday, and Sunday, 6:30 to 9 PM",
-      phone: "Tayo Smith +234 813 889 5671"
+      phone: "Tayo Smith +234 9055904161"
     },
     {
       location: {
@@ -51,9 +51,9 @@ var config = {
       title: "Barcelona Hotel",
       description:
         "A venue where Latin dance enthusiast meet during the week to socialise and dance after work. It has a bar and they sell drinks too",
-      time: "Thursdays and Saturdays, 7 to 10 PM",
-      class: "",
-      phone: "Vincent +234 806 415 5569 or Efa +234 803 509 0221"
+      time: " 7 to 10 PM",
+      class: "Tuessdays and Saturdays, 7 to 10 PM",
+      phone: "Efa +234 803 509 0221"
     },
     {
       location: {
@@ -63,10 +63,13 @@ var config = {
         bearing: 0
       },
       id: "bon-hotel-elvis",
+      class:"Mondays And Wednesday,6.30 to 8pm" ,
       title: "Bon Hotel Elvis",
       description:
         "A nice hotel with big swimming pool and bar. Close to the Banex plaza and a nice atmosphere with an open-space to relax and take in fresh air.",
-      time: "Sunday, 7:00 PM"
+      time: "7:00 PM",
+      class:"Mondays And Wednesday,6.30 to 8pm",
+      phone:"Tayo Smith +234 9055904161",
     },
     {
       location: {
@@ -89,50 +92,7 @@ var config = {
         pitch: 0,
         bearing: 0
       },
-      id: "famous-potatoes",
-      title: "Famous potatoes",
-      description:
-        "If you dread the first day of the week because of work, then relax yourself by dancing here on a Monday. The restaurant also makes nice dinner. You can eat your dinner and watch awesome people dance to nice music.",
-      time: "Monday, 6 PM",
-      phone: "Emz +2349037477518"
-    },
-    {
-      location: {
-        center: [7.284617417971094, 9.002253283511643],
-        zoom: 17,
-        pitch: 0,
-        bearing: 0
-      },
-      id: "protocol-lounge",
-      title: "Protocol Lounge",
-      description:
-        "A nice lounge with nice meals and view. It's got a sport bar where you can watch sports or play pool.",
-      time: "",
-      class: "Wednesday 7 to 9 PM",
-      phone: "Tayo Smith 08138895671"
-    },
-    {
-      location: {
-        center: [7.984617417971094, 9.93643],
-        zoom: 17,
-        pitch: 0,
-        bearing: 0
-      },
-      id: "dbridge-lounge",
-      title: "DBridge Lounge, Ayade Leisure Resort",
-      description:
-        "A nice lounge with nice meals and view. It's got a sport bar where you can watch sports or play pool.",
-      time: "",
-      class: "Tuesdays and Thursdays, 6:30 PM",
-      phone: "Godswill Efa +234 803 509 0221"
-    },
-    {
-      location: {
-        center: [7.0075251, 4.8175719],
-        zoom: 17,
-        pitch: 0,
-        bearing: 0
-      },
+      
       id: "jamaican-plaza",
       title: "JAMAICAN PLAZA",
       description:
